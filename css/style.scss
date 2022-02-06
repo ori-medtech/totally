@@ -137,9 +137,14 @@ nav {
   text-align: center;
   .select_table_color,
   .select_table_size {
-    width: 68px;
+    width: 20%;
     padding-top: 9.5px;
     padding-bottom: 9.5px;
+  }
+
+  .select_table_quantity {
+    width: 60%;
+    padding-left: 10px;
   }
 
   th + th, td + td {
@@ -152,14 +157,13 @@ nav {
 }
 
 #count {
-  width: 182px;
+  width: 100%;
   appearance: none;
 }
 
 .select_wrapper {
-  padding-left: 2px;
+  padding-left: 10px;
   position: relative;
-  width: 182px;
   margin: 0 auto;   
 
   &::after{ 
